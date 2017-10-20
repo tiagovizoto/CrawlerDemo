@@ -1,0 +1,5 @@
+pytesseract==0.1.7
+robobrowser==0.5.3
+tesseract-ocr
+
+# sudo apt-get install tesseract-ocr

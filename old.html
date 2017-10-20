@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <!-- Basic -->
+  <meta charset="utf-8"/>
+  <meta -equiv="content-language" content="pt-br" http="">
+   <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+   <title>
+    SARPAS - Solicitação de Autorização de Voos com RPAS (DRONE) | DECEA
+   </title>
+   <meta content="" name="keywords">
+    <meta content="" name="description"/>
+    <meta content="Departamento de Controle do Espaço Aéreo (DECEA)" name="author"/>
+    <meta content="SARPAS - Solicitação de Autorização de Voos com RPAS (DRONE) | DECEA" property="og:title">
+     <meta content="" property="og:description">
+      <meta content="http://servicos.decea.gov.br/_lib/assets/img/logos/sarpas.png" property="og:image"/>
+      <!-- Favicon -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/img/favicon.ico" rel="shortcut icon"/>
+      <!-- Mobile Metas -->
+      <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+      <!-- Web Fonts -->
+      <!-- Vendor CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet"/>
+      <!-- Theme CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/theme.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/theme-elements.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/theme-blog.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/theme-shop.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/theme-animate.css" rel="stylesheet"/>
+      <!-- Current Page CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/rs-plugin/css/settings.css" media="screen" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/rs-plugin/css/layers.css" media="screen" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/rs-plugin/css/navigation.css" media="screen" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/circle-flip-slideshow/css/component.css" media="screen" rel="stylesheet"/>
+      <!-- Skin CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/skins/default.css" rel="stylesheet"/>
+      <!-- Theme Custom CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/css/custom.css" rel="stylesheet"/>
+      <!-- Head Libs -->
+      <script src="http://servicos.decea.gov.br/_lib/assets/vendor/modernizr/modernizr.min.js">
+      </script>
+      <!-- Current Page CSS -->
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/circle-flip-slideshow/css/component.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/nivo-slider/nivo-slider.css" rel="stylesheet"/>
+      <link href="http://servicos.decea.gov.br/_lib/assets/vendor/nivo-slider/default/default.css" rel="stylesheet"/>
+     </meta>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body>
+  <div class="body">
+   <!-- barra decea // início
+-->
+   <style type="text/css">
+    iframe#barra_decea {
+width: 100%;
+height: 120px;
+border: 0;
+margin: 0;
+}
+   </style>
+   <iframe id="barra_decea" src="http://servicos2.decea.gov.br/portal/barra/?app=sarpas">
+   </iframe>
+   <!-- barra decea // fim -->
+   <header data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 57, "stickySetTop": "-57px", "stickyChangeLogo": true}' id="header">
+    <div class="header-body">
+     <div class="header-container container">
+      <div class="header-row">
+       <div class="header-column">
+        <div class="header-logo">
+         <a href="./">
+          <img alt="DECEA" data-sticky-height="40" data-sticky-top="33" data-sticky-width="108" src="http://servicos.decea.gov.br/_lib/assets/img/logos/sarpas.png"/>
+         </a>
+        </div>
+       </div>
+       <div class="header-column">
+        <div class="header-row">
+         <div class="header-nav">
+          <button class="btn header-btn-collapse-nav" data-target=".header-nav-main" data-toggle="collapse">
+           <i class="fa fa-bars">
+           </i>
+          </button>
+          <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+           <nav>
+            <ul class="nav nav-pills" id="mainNav">
+             <li class="">
+              <a href="index.cfm">
+               Início
+              </a>
+             </li>
+             <li class="">
+              <a href="?i=consulta">
+               Consulta
+              </a>
+             </li>
+             <li class="active">
+              <a href="?i=cadastro">
+               Cadastro
+              </a>
+             </li>
+             <li class="">
+              <a href="?i=AppSec">
+               Solicitação
+              </a>
+             </li>
+             <li class="">
+              <a href="?i=contato">
+               Contato
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </header>
+   <style type="text/css">
+    section.section { background-image: url('http://servicos.decea.gov.br/sarpas/view/_img/bg-drone.jpg'); background-position: center top; background-repeat: no-repeat; background-color: #F4F4F4; min-height: 580px; }
+   </style>
+   <section class="section section-default">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+       <div class="featured-box featured-box-primary align-left mt-xlg">
+        <div class="box-content">
+         <h4 class="heading-quaternary center text-uppercase mb-md">
+         </h4>
+         <div class="testimonial testimonial-style-3">
+          <blockquote>
+           <p>
+            Ao me cadastrar afirmo estar de acordo com os
+            <a href="termos_sarpas.pdf" target="_blank">
+             termos de uso
+            </a>
+            do serviço e ciente das punições cabíveis nos casos de infração.
+           </p>
+          </blockquote>
+          <div class="testimonial-arrow-down">
+          </div>
+         </div>
+         <form action="view/cadastro/act.cfm?passo=1" class="form" enctype="multipart/form-data" id="frmSignUp" method="post">
+          <div class="row">
+           <div class="form-group">
+            <div class="col-md-12">
+             <h4 class="heading-primary mb-none">
+              <strong>
+               Dados Pessoais
+              </strong>
+             </h4>
+             <label>
+              Nome Completo
+             </label>
+             <input class="form-control input-lg required" name="nome" type="text" value=""/>
+            </div>
+           </div>
+          </div>
+          <div class="row">
+           <div class="form-group">
+            <div class="col-md-6">
+             <label>
+              Email
+             </label>
+             <input class="form-control input-lg required email" name="email" type="text" value=""/>
+            </div>
+            <div class="col-md-6">
+             <label>
+              Telefone Celular
+             </label>
+             <input class="form-control input-lg required telefone_celular" id="telefone" name="telefone_celular" type="text" value=""/>
+            </div>
+           </div>
+          </div>
+          <div class="row">
+           <div class="col-md-4">
+            <div class="form-group">
+             <label class="control-label">
+              CPF
+             </label>
+             <input class="form-control required input-lg cpf" id="cpf" name="cpf" type="text"/>
+            </div>
+           </div>
+           <div class="col-md-4">
+            <div class="form-group">
+             <label class="control-label">
+              Data de Nascimento
+             </label>
+             <div class="input-group">
+              <span class="input-group-addon">
+               <i class="fa fa-calendar">
+               </i>
+              </span>
+              <input class="form-control required dateITA input-lg MaskDate" data-input-mask="99/99/9999" data-plugin-masked-input="" name="dt_nasc" placeholder="__/__/____"/>
+             </div>
+            </div>
+           </div>
+           <div class="col-md-4">
+            <div class="form-group">
+             <label>
+              Nacionalidade
+             </label>
+             <select class="form-control input-lg mb-md required" name="nac">
+              <option value="AFG">
+               Afeganistão
+              </option>
+              <option value="ALB">
+               Albânia
+              </option>
+              <option value="ATA">
+               Antárctida
+              </option>
+              <option value="DZA">
+               Argélia
+              </option>
+              <option value="ASM">
+               Samoa Americana
+              </option>
+              <option value="AND">
+               Andorra
+              </option>
+              <option value="AGO">
+               Angola
+              </option>
+              <option value="ATG">
+               Antigua e Barbuda
+              </option>
+              <option value="AZE">
+               Azerbeijão
+              </option>
+              <option value="ARG">
+               Argentina
+              </option>
+              <option value="AUS">
+               Austrália
+              </option>
+              <option value="AUT">
+               Áustria
+              </option>
+              <option value="BHS">
+               Bahamas
+              </option>
+              <option value="BHR">
+               Bahrain
+              </option>
+              <option value="BGD">
+               Bangladesh
+              </option>
+              <option value="ARM">
+               Arménia
+              </option>
+              <option value="BRB">
+               Barbados
+              </option>
+              <option value="BEL">
+               Bélgica
+              </option>
+              <option value="BMU">
+               Bermuda
+              </option>
+              <option value="BTN">
+               Butão
+              </option>
+              <option value="BOL">
+               Bolívia
+              </option>
+              <option value="BIH">
+               Bósnia
+              </option>
+              <option value="BWA">
+               Botswana
+              </option>
+              <option value="BVT">
+               Bouvet, Ilha
+              </option>
+              <option selected="" value="BRA">
+               Brasil
+              </option>
+              <option value="BLZ">
+               Belize
+              </option>
+              <option value="IOT">
+               Território Britânico do Oceano Índico
+              </option>
+              <option value="SLB">
+               Salomão, Ilhas
+              </option>
+              <option value="VGB">
+               Virgens Britânicas, Ilhas
+              </option>
+              <option value="BRN">
+               Brunei
+              </option>
+              <option value="BGR">
+               Bulgária
+              </option>
+              <option value="MMR">
+               Myanmar (antiga Birmânia)
+              </option>
+              <option value="BDI">
+               Burundi
+              </option>
+              <option value="BLR">
+               Bielo-Rússia
+              </option>
+              <option value="KHM">
+               Cambodja
+              </option>
+              <option value="CMR">
+               Camarões
+              </option>
+              <option value="CAN">
+               Canadá
+              </option>
+              <option value="CPV">
+               Cabo Verde
+              </option>
+              <option value="CYM">
+               Cayman, Ilhas
+              </option>
+              <option value="CAF">
+               Centro-africana, República
+              </option>
+              <option value="LKA">
+               Sri Lanka
+              </option>
+              <option value="TCD">
+               Chade
+              </option>
+              <option value="CHL">
+               Chile
+              </option>
+              <option value="CHN">
+               China
+              </option>
+              <option value="TWN">
+               Taiwan
+              </option>
+              <option value="CXR">
+               Christmas, Ilha
+              </option>
+              <option value="CCK">
+               Cocos, Ilhas
+              </option>
+              <option value="COL">
+               Colômbia
+              </option>
+              <option value="COM">
+               Comores
+              </option>
+              <option value="MYT">
+               Mayotte
+              </option>
+              <option value="COG">
+               Congo, República do
+              </option>
+              <option value="COD">
+               Congo, República Democrática do (antigo Zaire)
+              </option>
+              <option value="COK">
+               Cook, Ilhas
+              </option>
+              <option value="CRI">
+               Costa Rica
+              </option>
+              <option value="HRV">
+               Croácia
+              </option>
+              <option value="CUB">
+               Cuba
+              </option>
+              <option value="CYP">
+               Chipre
+              </option>
+              <option value="CZE">
+               Checa, República
+              </option>
+              <option value="BEN">
+               Benin
+              </option>
+              <option value="DNK">
+               Dinamarca
+              </option>
+              <option value="DMA">
+               Dominica
+              </option>
+              <option value="DOM">
+               Dominicana, República
+              </option>
+              <option value="ECU">
+               Equador
+              </option>
+              <option value="SLV">
+               El Salvador
+              </option>
+              <option value="GNQ">
+               Guiné Equatorial
+              </option>
+              <option value="ETH">
+               Etiópia
+              </option>
+              <option value="ERI">
+               Eritreia
+              </option>
+              <option value="EST">
+               Estónia
+              </option>
+              <option value="FRO">
+               Faroe, Ilhas
+              </option>
+              <option value="FLK">
+               Malvinas, Ilhas (Falkland)
+              </option>
+              <option value="SGS">
+               Geórgia do Sul e Sandwich do Sul, Ilhas
+              </option>
+              <option value="FJI">
+               Fiji
+              </option>
+              <option value="FIN">
+               Finlândia
+              </option>
+              <option value="ALA">
+               Åland, Ilhas
+              </option>
+              <option value="FRA">
+               França
+              </option>
+              <option value="GUF">
+               Guiana Francesa
+              </option>
+              <option value="PYF">
+               Polinésia Francesa
+              </option>
+              <option value="ATF">
+               Terras Austrais e Antárticas Francesas (TAAF)
+              </option>
+              <option value="DJI">
+               Djibouti
+              </option>
+              <option value="GAB">
+               Gabão
+              </option>
+              <option value="GEO">
+               Geórgia
+              </option>
+              <option value="GMB">
+               Gâmbia
+              </option>
+              <option value="PSE">
+               Palestina
+              </option>
+              <option value="DEU">
+               Alemanha
+              </option>
+              <option value="GHA">
+               Gana
+              </option>
+              <option value="GIB">
+               Gibraltar
+              </option>
+              <option value="KIR">
+               Kiribati
+              </option>
+              <option value="GRC">
+               Grécia
+              </option>
+              <option value="GRL">
+               Gronelândia
+              </option>
+              <option value="GRD">
+               Grenada
+              </option>
+              <option value="GLP">
+               Guadeloupe
+              </option>
+              <option value="GUM">
+               Guam
+              </option>
+              <option value="GTM">
+               Guatemala
+              </option>
+              <option value="GIN">
+               Guiné-Conacri
+              </option>
+              <option value="GUY">
+               Guiana
+              </option>
+              <option value="HTI">
+               Haiti
+              </option>
+              <option value="HMD">
+               Heard e Ilhas McDonald, Ilha
+              </option>
+              <option value="VAT">
+               Vaticano
+              </option>
+              <option value="HND">
+               Honduras
+              </option>
+              <option value="HKG">
+               Hong Kong
+              </option>
+              <option value="HUN">
+               Hungria
+              </option>
+              <option value="ISL">
+               Islândia
+              </option>
+              <option value="IND">
+               Índia
+              </option>
+              <option value="IDN">
+               Indonésia
+              </option>
+              <option value="IRN">
+               Irã
+              </option>
+              <option value="IRQ">
+               Iraque
+              </option>
+              <option value="IRL">
+               Irlanda
+              </option>
+              <option value="ISR">
+               Israel
+              </option>
+              <option value="ITA">
+               Itália
+              </option>
+              <option value="CIV">
+               Costa do Marfim
+              </option>
+              <option value="JAM">
+               Jamaica
+              </option>
+              <option value="JPN">
+               Japão
+              </option>
+              <option value="KAZ">
+               Cazaquistão
+              </option>
+              <option value="JOR">
+               Jordânia
+              </option>
+              <option value="KEN">
+               Quénia
+              </option>
+              <option value="PRK">
+               Coreia, República Democrática da (Coreia do Norte)
+              </option>
+              <option value="KOR">
+               Coreia do Sul
+              </option>
+              <option value="KWT">
+               Kuwait
+              </option>
+              <option value="KGZ">
+               Quirguistão
+              </option>
+              <option value="LAO">
+               Laos
+              </option>
+              <option value="LBN">
+               Líbano
+              </option>
+              <option value="LSO">
+               Lesoto
+              </option>
+              <option value="LVA">
+               Letónia
+              </option>
+              <option value="LBR">
+               Libéria
+              </option>
+              <option value="LBY">
+               Líbia
+              </option>
+              <option value="LIE">
+               Liechtenstein
+              </option>
+              <option value="LTU">
+               Lituânia
+              </option>
+              <option value="LUX">
+               Luxemburgo
+              </option>
+              <option value="MAC">
+               Macau
+              </option>
+              <option value="MDG">
+               Madagáscar
+              </option>
+              <option value="MWI">
+               Malawi
+              </option>
+              <option value="MYS">
+               Malásia
+              </option>
+              <option value="MDV">
+               Maldivas
+              </option>
+              <option value="MLI">
+               Mali
+              </option>
+              <option value="MLT">
+               Malta
+              </option>
+              <option value="MTQ">
+               Martinica
+              </option>
+              <option value="MRT">
+               Mauritânia
+              </option>
+              <option value="MUS">
+               Maurícia
+              </option>
+              <option value="MEX">
+               México
+              </option>
+              <option value="MCO">
+               Mónaco
+              </option>
+              <option value="MNG">
+               Mongólia
+              </option>
+              <option value="MDA">
+               Moldávia
+              </option>
+              <option value="MNE">
+               Montenegro
+              </option>
+              <option value="MSR">
+               Montserrat
+              </option>
+              <option value="MAR">
+               Marrocos
+              </option>
+              <option value="MOZ">
+               Moçambique
+              </option>
+              <option value="OMN">
+               Oman
+              </option>
+              <option value="NAM">
+               Namíbia
+              </option>
+              <option value="NRU">
+               Nauru
+              </option>
+              <option value="NPL">
+               Nepal
+              </option>
+              <option value="NLD">
+               Holanda
+              </option>
+              <option value="ANT">
+               Antilhas Holandesas
+              </option>
+              <option value="ABW">
+               Aruba
+              </option>
+              <option value="NCL">
+               Nova Caledónia
+              </option>
+              <option value="VUT">
+               Vanuatu
+              </option>
+              <option value="NZL">
+               Nova Zelândia (Aotearoa)
+              </option>
+              <option value="NIC">
+               Nicarágua
+              </option>
+              <option value="NER">
+               Níger
+              </option>
+              <option value="NGA">
+               Nigéria
+              </option>
+              <option value="NIU">
+               Niue
+              </option>
+              <option value="NFK">
+               Norfolk, Ilha
+              </option>
+              <option value="NOR">
+               Noruega
+              </option>
+              <option value="MNP">
+               Marianas Setentrionais
+              </option>
+              <option value="UMI">
+               Menores Distantes dos Estados Unidos, Ilhas
+              </option>
+              <option value="FSM">
+               Micronésia, Estados Federados da
+              </option>
+              <option value="MHL">
+               Marshall, Ilhas
+              </option>
+              <option value="PLW">
+               Palau
+              </option>
+              <option value="PAK">
+               Paquistão
+              </option>
+              <option value="PAN">
+               Panamá
+              </option>
+              <option value="PNG">
+               Papua-Nova Guiné
+              </option>
+              <option value="PRY">
+               Paraguai
+              </option>
+              <option value="PER">
+               Peru
+              </option>
+              <option value="PHL">
+               Filipinas
+              </option>
+              <option value="PCN">
+               Pitcairn
+              </option>
+              <option value="POL">
+               Polónia
+              </option>
+              <option value="PRT">
+               Portugal
+              </option>
+              <option value="GNB">
+               Guiné-Bissau
+              </option>
+              <option value="TLS">
+               Timor-Leste
+              </option>
+              <option value="PRI">
+               Porto Rico
+              </option>
+              <option value="QAT">
+               Qatar
+              </option>
+              <option value="REU">
+               Reunião
+              </option>
+              <option value="ROU">
+               Roménia
+              </option>
+              <option value="RUS">
+               Rússia
+              </option>
+              <option value="RWA">
+               Ruanda
+              </option>
+              <option value="SHN">
+               Santa Helena
+              </option>
+              <option value="KNA">
+               São Cristóvão e Névis (Saint Kitts e Nevis)
+              </option>
+              <option value="AIA">
+               Anguilla
+              </option>
+              <option value="LCA">
+               Santa Lúcia
+              </option>
+              <option value="SPM">
+               Saint Pierre et Miquelon
+              </option>
+              <option value="VCT">
+               São Vicente e Granadinas
+              </option>
+              <option value="SMR">
+               San Marino
+              </option>
+              <option value="STP">
+               São Tomé e Príncipe
+              </option>
+              <option value="SAU">
+               Arábia Saudita
+              </option>
+              <option value="SEN">
+               Senegal
+              </option>
+              <option value="SRB">
+               Sérvia
+              </option>
+              <option value="SYC">
+               Seychelles
+              </option>
+              <option value="SLE">
+               Serra Leoa
+              </option>
+              <option value="SGP">
+               Singapura
+              </option>
+              <option value="SVK">
+               Eslováquia
+              </option>
+              <option value="VNM">
+               Vietname
+              </option>
+              <option value="SVN">
+               Eslovénia
+              </option>
+              <option value="SOM">
+               Somália
+              </option>
+              <option value="ZAF">
+               África do Sul
+              </option>
+              <option value="ZWE">
+               Zimbabwe
+              </option>
+              <option value="ESP">
+               Espanha
+              </option>
+              <option value="ESH">
+               Saara Ocidental
+              </option>
+              <option value="SDN">
+               Sudão
+              </option>
+              <option value="SUR">
+               Suriname
+              </option>
+              <option value="SJM">
+               Svalbard e Jan Mayen
+              </option>
+              <option value="SWZ">
+               Suazilândia
+              </option>
+              <option value="SWE">
+               Suécia
+              </option>
+              <option value="CHE">
+               Suíça
+              </option>
+              <option value="SYR">
+               Síria
+              </option>
+              <option value="TJK">
+               Tajiquistão
+              </option>
+              <option value="THA">
+               Tailândia
+              </option>
+              <option value="TGO">
+               Togo
+              </option>
+              <option value="TKL">
+               Toquelau
+              </option>
+              <option value="TON">
+               Tonga
+              </option>
+              <option value="TTO">
+               Trindade e Tobago
+              </option>
+              <option value="ARE">
+               Emiratos Árabes Unidos
+              </option>
+              <option value="TUN">
+               Tunísia
+              </option>
+              <option value="TUR">
+               Turquia
+              </option>
+              <option value="TKM">
+               Turquemenistão
+              </option>
+              <option value="TCA">
+               Turks e Caicos
+              </option>
+              <option value="TUV">
+               Tuvalu
+              </option>
+              <option value="UGA">
+               Uganda
+              </option>
+              <option value="UKR">
+               Ucrânia
+              </option>
+              <option value="MKD">
+               Macedónia, República da
+              </option>
+              <option value="EGY">
+               Egipto
+              </option>
+              <option value="GBR">
+               Reino Unido da Grã-Bretanha e Irlanda do Norte
+              </option>
+              <option value="GGY">
+               Guernsey
+              </option>
+              <option value="JEY">
+               Jersey
+              </option>
+              <option value="IMN">
+               Man, Ilha de
+              </option>
+              <option value="TZA">
+               Tanzânia
+              </option>
+              <option value="USA">
+               Estados Unidos
+              </option>
+              <option value="VIR">
+               Virgens Americanas, Ilhas
+              </option>
+              <option value="BFA">
+               Burkina Faso
+              </option>
+              <option value="URY">
+               Uruguai
+              </option>
+              <option value="UZB">
+               Usbequistão
+              </option>
+              <option value="VEN">
+               Venezuela
+              </option>
+              <option value="WLF">
+               Wallis e Futuna
+              </option>
+              <option value="WSM">
+               Samoa (Samoa Ocidental)
+              </option>
+              <option value="YEM">
+               Iémen
+              </option>
+              <option value="ZMB">
+               Zâmbia
+              </option>
+              <option value="GBR">
+               Inglaterra
+              </option>
+             </select>
+            </div>
+           </div>
+          </div>
+          <hr/>
+          <div class="row">
+           <div class="form-group">
+            <div class="col-md-12">
+             <h4 class="heading-primary mb-none">
+              <strong>
+               Documento
+              </strong>
+             </h4>
+             <p class="mb-xlg">
+              Fique atento aos requisitos do documento:
+             </p>
+             <ul class="list list-icons" style="font-weight: bold;">
+              <li>
+               <i class="fa fa-check">
+               </i>
+               Sentido de Leitura Correto
+              </li>
+              <li>
+               <i class="fa fa-check">
+               </i>
+               Nome, Data de Nascimento e CPF legíveis
+              </li>
+              <li>
+               <i class="fa fa-check">
+               </i>
+               Resolução da imagem que permita boa legibilidade
+              </li>
+              <li>
+               <i class="fa fa-check">
+               </i>
+               Tamanho máximo do arquivo:
+               <strong style="color: red;">
+                2MB
+               </strong>
+              </li>
+              <li>
+               <i class="fa fa-check">
+               </i>
+               Formato do Arquivo:
+               <strong style="color: red;">
+                JPG
+               </strong>
+              </li>
+             </ul>
+             <br/>
+             <input class="form-control input-lg required" id="doc" name="doc" type="file"/>
+            </div>
+           </div>
+          </div>
+          <hr/>
+          <div class="row">
+           <div class="col-md-12">
+            <h4 class="heading-primary mb-none">
+             <strong>
+              Acesso
+             </strong>
+            </h4>
+            <p class="mb-xlg">
+             Utilize letras minúsculas, maísculas, números e caracteres especiais para obter o nível mínimo de força na senha
+            </p>
+           </div>
+           <div class="col-md-6">
+            <div class="form-group">
+             <label>
+              Senha
+             </label>
+             <input class="form-control input-lg required" data-display="myDisplayElement1" id="password" minlength="8" name="senha" type="password"/>
+            </div>
+           </div>
+           <div class="col-md-6">
+            <div class="form-group">
+             <label>
+              Confirmar Senha
+             </label>
+             <input class="form-control input-lg required" id="password_again" minlength="8" name="senha_igual" type="password"/>
+            </div>
+           </div>
+           <div class="col-md-12 center">
+            <h4 class="heading-tertiary">
+             <div id="myDisplayElement1">
+             </div>
+            </h4>
+           </div>
+          </div>
+          <hr/>
+          <div class="row">
+           <div class="form-group">
+            <div class="col-md-12">
+             <label>
+              Verificador (repita no campo o número que aparece na figura)
+             </label>
+            </div>
+            <div class="col-md-4">
+             <img height="45" src="/railo-context/graph.cfm?img=7C195F00-0A2D-42A4-98736E3CB2B225B3.png&amp;type=x-png" width="180">
+             </img>
+            </div>
+            <div class="col-md-8">
+             <input class="form-control input-lg required" name="vef" type="text" value=""/>
+            </div>
+           </div>
+          </div>
+          <input name="pais" type="hidden" value="BRA"/>
+          <div class="row">
+           <div class="col-md-12">
+            <input class="btn btn-primary btn-lg pull-right mb-xl" data-loading-text="Aguarde..." type="submit" value="Enviar Cadastro"/>
+           </div>
+          </div>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </div>
+ </body>
+</html>
+<footer class="light narrow" id="footer">
+ <div class="footer-copyright" style="border:0;">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-3">
+     <a class="logo" href="http://www.decea.gov.br">
+      <img alt="Departamento de Controle do Espaço Aéreo (DECEA)" class="img-responsive" src="http://servicos.decea.gov.br/_lib/templates/bootstrap/assets/img/logo.png"/>
+     </a>
+    </div>
+    <div class="col-md-2">
+     <a class="logo" href="http://www.fab.mil.br" target="_blank">
+      <img src="http://static.decea.gov.br/assets/img/fab_logo.png"/>
+     </a>
+    </div>
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-4">
+     <ul class="social-icons pull-right">
+      <li class="social-icons-facebook">
+       <a href="https://www.facebook.com/decea.oficial/" target="_blank" title="Facebook">
+        <i class="fa fa-facebook">
+        </i>
+       </a>
+      </li>
+      <li class="social-icons-twitter">
+       <a href="http://www.twitter.com/decea" target="_blank" title="Twitter">
+        <i class="fa fa-twitter">
+        </i>
+       </a>
+      </li>
+      <li class="social-icons-linkedin">
+       <a href="https://www.linkedin.com/company/forca-aerea-brasileira" target="_blank" title="Linkedin">
+        <i class="fa fa-linkedin">
+        </i>
+       </a>
+      </li>
+     </ul>
+     <p>
+      Desenvolvido pela ASCOM/DECEA
+     </p>
+    </div>
+   </div>
+  </div>
+ </div>
+</footer>
+<!-- Vendor -->
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery/jquery.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery.appear/jquery.appear.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery.easing/jquery.easing.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery-cookie/jquery-cookie.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/bootstrap/js/bootstrap.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/common/common.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery.gmap/jquery.gmap.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/jquery.lazyload/jquery.lazyload.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/isotope/jquery.isotope.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/magnific-popup/jquery.magnific-popup.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/vide/vide.min.js">
+</script>
+<!-- Theme Base, Components and Settings -->
+<script src="http://servicos.decea.gov.br/_lib/assets/js/theme.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/circle-flip-slideshow/js/jquery.flipshow.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/nivo-slider/jquery.nivo.slider.min.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/js/views/view.home.js">
+</script>
+<!-- Theme Custom -->
+<script src="http://servicos.decea.gov.br/_lib/assets/js/custom.js">
+</script>
+<!-- Theme Initialization Files -->
+<script src="http://servicos.decea.gov.br/_lib/assets/js/theme.init.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/admin/vendor/jquery-validation/jquery.validate.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/admin/vendor/jquery-validation/additional-methods.js">
+</script>
+<!-- Theme Base, Components and Settings -->
+<!-- Theme Custom -->
+<script src="http://servicos.decea.gov.br/_lib/assets/admin/javascripts/theme.custom.js">
+</script>
+<!-- Theme Initialization Files -->
+<script src="http://servicos.decea.gov.br/_lib/assets/admin/javascripts/theme.init.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/admin/vendor/jquery-maskedinput/jquery.maskedinput.js">
+</script>
+<script src="http://servicos.decea.gov.br/_lib/assets/vendor/password.js">
+</script>
+<script>
+ $(".form").validate({
+rules: {
+password: "required",
+password_again: {
+equalTo: "#password"
+}
+}
+});
+</script>
+<script type="text/javascript">
+ jQuery(function($){
+$.mask.definitions['~']='[PR]';
+$(".MaskDate").mask("99/99/9999",{placeholder:"dd/mm/aaaa"});
+$(".MaskHr").mask("99:99",{placeholder:"HH:MM"});
+$("#telefone").mask("(99) 99999-999?9");
+$(".telefone").mask("(99) 99999-999?9");
+$(".telefone_fixo").mask("(99) 9999-9999");
+$("#sisant").mask("P~-999999999");
+$("#cpf").mask("99999999999");
+$("#cnpj").mask("99.999.999/9999-99");
+$("#cep").mask("99999-999");
+});
+$('input.btn')
+.click(function () {
+var btn = $(this)
+btn.button('loading')
+setTimeout(function () {
+btn.button('reset')
+}, 700)
+});
+</script>
+<script type="text/javascript">
+ $(document).ready(function(){
+$('#password, #password_again').pStrength({
+'changeBackground' : false,
+'onPasswordStrengthChanged' : function(passwordStrength, strengthPercentage) {
+if ($(this).val()) {
+$.fn.pStrength('changeBackground', $(this), passwordStrength);
+} else {
+$.fn.pStrength('resetStyle', $(this));
+}
+$('#' + $(this).data('display'))
+.html('O nível de força de senha é de <span class="label label-dark"><strong>' + strengthPercentage + '%</strong></span> O mínimo é 60%');
+},
+'onValidatePassword': function(strengthPercentage) {
+$('#' + $(this).data('display')).html(
+$('#' + $(this).data('display')).html() + '!<br>Obrigado por usar uma senha segura! Pode continuar seu cadastro.'
+);
+$('.form').submit(function(){
+return true;
+});
+}
+});
+});
+</script>
+<script type="text/javascript">
+ var _validFileExtensions = [".jpg", ".jpeg"];
+$('#doc').bind('change', function ValidateSingleInput(oInput) {
+if (oInput.type == "file") {
+var sFileName = oInput.value;
+if (sFileName.length > 0) {
+var blnValid = false;
+for (var j = 0; j < _validFileExtensions.length; j++) {
+var sCurExtension = _validFileExtensions[j];
+if (sFileName.substr(sFileName.length - sCurExtension.length, sCurExtension.length).toLowerCase() == sCurExtension.toLowerCase()) {
+blnValid = true;
+break;
+}
+}
+if (!blnValid) {
+alert("Desculpe, " + sFileName + " não está nos formatos permitidos: " + _validFileExtensions.join(", "));
+oInput.value = "";
+return false;
+}
+}
+}
+return true;
+}
+$('#doc').bind('change', function() {
+var t = this.files[0].size;
+if ( t > 2000000 )
+{
+//this.files[0].size gets the size of your file.
+$('#doc').val("");
+alert('Tamanho máximo: 2MB');
+}
+});
+</script>
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-4596976-1', 'auto');
+ga('send', 'pageview');
+</script>
